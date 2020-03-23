@@ -6,32 +6,24 @@ namespace ConsoleApp2
 {
     class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
-            new Puppy();
-        }
-
-
-        public class Animal
-        {
-            public Animal()
+            var cars = new List<Car>
             {
-                Console.WriteLine("Hi from Animal");
-            }
-        }
+                new Minivan(5, "BMW", 1, 888888),
+                new Van(
+                    100,
+                    100000,
+                    new Insurance(DateTime.Now, DateTime.Now, "Oleh Harmash"),
+                    "Lada",
+                    10,
+                    999999),
+                new Minivan (5, "Kalina", 15, 888888)
+            };
 
-        public class Dog : Animal
-        {
-            public Dog() {
-                Console.WriteLine("Hi from Dog");
-            }
-        }
-
-        public class Puppy : Dog
-        {
-            public Puppy()
+            foreach (var car in cars)
             {
-                Console.WriteLine("Hi from Puppy!!");
+                Console.WriteLine(car);
             }
         }
     }

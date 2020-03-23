@@ -9,3 +9,16 @@ C:\Users\Yuliia_Nechyporuk\source\repos\ConsoleApp2\ConsoleApp2\obj\Debug\netcor
 C:\Users\Yuliia_Nechyporuk\source\repos\ConsoleApp2\ConsoleApp2\obj\Debug\netcoreapp3.1\ConsoleApp2.AssemblyInfo.cs
 C:\Users\Yuliia_Nechyporuk\source\repos\ConsoleApp2\ConsoleApp2\obj\Debug\netcoreapp3.1\ConsoleApp2.dll
 C:\Users\Yuliia_Nechyporuk\source\repos\ConsoleApp2\ConsoleApp2\obj\Debug\netcoreapp3.1\ConsoleApp2.pdb
+D:\Alevel\lesson10\ConsoleApp2\obj\Debug\netcoreapp3.1\ConsoleApp2.csprojAssemblyReference.cache
+D:\Alevel\lesson10\ConsoleApp2\obj\Debug\netcoreapp3.1\ConsoleApp2.csproj.CoreCompileInputs.cache
+D:\Alevel\lesson10\ConsoleApp2\obj\Debug\netcoreapp3.1\ConsoleApp2.AssemblyInfoInputs.cache
+D:\Alevel\lesson10\ConsoleApp2\obj\Debug\netcoreapp3.1\ConsoleApp2.AssemblyInfo.cs
+D:\Alevel\lesson10\ConsoleApp2\obj\Debug\netcoreapp3.1\ConsoleApp2.dll
+D:\Alevel\lesson10\ConsoleApp2\obj\Debug\netcoreapp3.1\ConsoleApp2.pdb
+D:\Alevel\lesson10\ConsoleApp2\bin\Debug\netcoreapp3.1\ConsoleApp2.exe
+D:\Alevel\lesson10\ConsoleApp2\bin\Debug\netcoreapp3.1\ConsoleApp2.deps.json
+D:\Alevel\lesson10\ConsoleApp2\bin\Debug\netcoreapp3.1\ConsoleApp2.runtimeconfig.json
+D:\Alevel\lesson10\ConsoleApp2\bin\Debug\netcoreapp3.1\ConsoleApp2.runtimeconfig.dev.json
+D:\Alevel\lesson10\ConsoleApp2\bin\Debug\netcoreapp3.1\ConsoleApp2.dll
+D:\Alevel\lesson10\ConsoleApp2\bin\Debug\netcoreapp3.1\ConsoleApp2.pdb
+D:\Alevel\lesson10\ConsoleApp2\obj\Debug\netcoreapp3.1\ConsoleApp2.genruntimeconfig.cache
