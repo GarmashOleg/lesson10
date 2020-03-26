@@ -22,10 +22,21 @@ namespace ConsoleApp2
                 new Bicycle()
             };
 
-            foreach (var car in cars)
+            foreach (IVehicle car in vehicles)
             {
-                Console.WriteLine(car);
+                Console.Write(car.Name + " ");
+                Console.WriteLine("Speed: " + car.GetSpeed());
             }
+
+            IVehicle van = new Van(
+                100,
+                100000,
+                new Insurance(DateTime.Now, DateTime.Now, "Yuliia Nechyporuk"),
+                "Lada",
+                10,
+                12000);
+
+            van.PrintInfo();
         }
     }
 }

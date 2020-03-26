@@ -1,13 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace ConsoleApp2
+﻿namespace ConsoleApp2
 {
     public interface IVehicle
     {
-        string Name { get}
+        string Name { get; }
 
-        //int 
+        int GetSpeed();
+
+        void PrintInfo();
     }
 }

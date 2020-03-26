@@ -1,4 +1,6 @@
 ﻿
+using System;
+
 namespace ConsoleApp2
 {
     public class Minivan : Car
@@ -7,9 +9,20 @@ namespace ConsoleApp2
         private int numberOfSeats = 4;
 
 
-        public Minivan(int numberOfSeats, string carName, int id, double price) : base(carName, id, price)
+        public Minivan(int numberOfSeats, string carName, int id, double price) : base(id, carName, price)
         {
             NumberOfSeats = numberOfSeats;
+        }
+        public override string Name => "Minivan";
+
+        public override int GetSpeed()
+        {
+            return 150;
+        }
+
+        public override void PrintInfo()
+        {
+            Console.WriteLine(ToString());
         }
 
         public int NumberOfSeats
