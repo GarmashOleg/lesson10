@@ -8,7 +8,7 @@ namespace ConsoleApp2
     {
         public static void Main(string[] args)
         {
-            var cars = new List<Car>
+            var vehicles = new List<IVehicle>
             {
                 new Minivan(5, "BMW", 1, 888888),
                 new Van(
@@ -18,7 +18,8 @@ namespace ConsoleApp2
                     "Lada",
                     10,
                     999999),
-                new Minivan (5, "Kalina", 15, 888888)
+                new Minivan (5, "Kalina", 15, 888888),
+                new Bicycle()
             };
 
             foreach (var car in cars)

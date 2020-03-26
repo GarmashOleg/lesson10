@@ -27,5 +27,10 @@ namespace ConsoleApp2
                 }
             }
         }
+
+        public override string ToString()
+        {
+            return base.ToString() + $"Id: {ID}, Name: {CarName}, Price: {Price}";
+        }
     }
 }
