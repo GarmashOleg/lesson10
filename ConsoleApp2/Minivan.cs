@@ -3,7 +3,7 @@ using System;
 
 namespace ConsoleApp2
 {
-    public class Minivan : Car
+    public abstract class Minivan : Car
     {
         private int maxNumberOfSeats = 10;
         private int numberOfSeats = 4;
@@ -13,7 +13,8 @@ namespace ConsoleApp2
         {
             NumberOfSeats = numberOfSeats;
         }
-        public override string Name => "Minivan";
+        //public override string Name { set => throw new NotImplementedException(); }
+        //public override string Name => "Minivan";
 
         public override int GetSpeed()
         {

@@ -16,7 +16,10 @@ namespace ConsoleApp2
             Insurance = insurance;
         }
 
-        public override string Name => "Van";
+        public override string Name { get; set => throw new NotImplementedException(); }
+
+
+        //public override string Name => "Van";
 
         public override int GetSpeed()
         {

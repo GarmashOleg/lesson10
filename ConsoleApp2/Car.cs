@@ -2,7 +2,7 @@
 
 namespace ConsoleApp2
 {
-    public class Car : IVehicle
+    public abstract class Car : IVehicle
     {
         public Car(int id, string carName, double price)
         {
@@ -17,7 +17,7 @@ namespace ConsoleApp2
 
         public double Price { get; set; }
 
-        public virtual string Name => "Van";
+        public abstract string Name { get; set; }
 
         public virtual int GetSpeed()
         {
