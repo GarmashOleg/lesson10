@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Alevel\\lesson10\\ConsoleApp2\\ConsoleApp2.csproj": {}
+    "D:\\Alevel\\lesson10\\Lesson\\ConsoleApp2\\ConsoleApp2.csproj": {}
   },
   "projects": {
-    "D:\\Alevel\\lesson10\\ConsoleApp2\\ConsoleApp2.csproj": {
+    "D:\\Alevel\\lesson10\\Lesson\\ConsoleApp2\\ConsoleApp2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Alevel\\lesson10\\ConsoleApp2\\ConsoleApp2.csproj",
+        "projectUniqueName": "D:\\Alevel\\lesson10\\Lesson\\ConsoleApp2\\ConsoleApp2.csproj",
         "projectName": "ConsoleApp2",
-        "projectPath": "D:\\Alevel\\lesson10\\ConsoleApp2\\ConsoleApp2.csproj",
+        "projectPath": "D:\\Alevel\\lesson10\\Lesson\\ConsoleApp2\\ConsoleApp2.csproj",
         "packagesPath": "C:\\Users\\Oleh_Harmash\\.nuget\\packages\\",
-        "outputPath": "D:\\Alevel\\lesson10\\ConsoleApp2\\obj\\",
+        "outputPath": "D:\\Alevel\\lesson10\\Lesson\\ConsoleApp2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Oleh_Harmash\\AppData\\Roaming\\NuGet\\NuGet.Config",
